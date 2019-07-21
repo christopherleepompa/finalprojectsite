@@ -124,7 +124,7 @@ body {
 	height:46px;
 }
 
-#siteNav li{
+#siteNav li {
 	display:inline-block;
 	width:192px;
 	height:34px;
@@ -132,6 +132,21 @@ body {
 	font-family:Helvetica;
 	font-size:20px;
 	padding-top:12px;
+}
+
+#siteNav a {
+	text-decoration:none;
+	transition: .3s, background-color;
+}
+
+#siteNav a:hover {
+	background-color:#B2B1BA;
+}
+
+#siteNav a.activeLink {
+	background-color:#EDEDF7;
+	color:#38383B;
+	cursor:default;
 }
 
 #mainContent {
