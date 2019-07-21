@@ -136,6 +136,7 @@ body {
 
 #siteNav a {
 	display:block;
+	height:34px;
 	text-decoration:none;
 	color:#FFF;
 	transition: .3s, background-color;
