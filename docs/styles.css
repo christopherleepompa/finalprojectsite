@@ -137,7 +137,9 @@ body {
 #siteNav a {
 	display:block;
 	height:34px;
-	padding-top;12px;
+	position:relative;
+	bottom:12px;
+	padding-top:12px;
 	text-decoration:none;
 	color:#FFF;
 	transition: .3s, background-color;
