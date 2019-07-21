@@ -128,16 +128,16 @@ body {
 	display:inline-block;
 	width:192px;
 	height:34px;
+	padding-top:12px;
 	text-align:center;
 	font-family:Helvetica;
 	font-size:20px;
-	padding-top:12px;
 }
 
 #siteNav a {
 	display:block;
 	height:34px;
-	padding-top:12px;
+	padding-top;12px;
 	text-decoration:none;
 	color:#FFF;
 	transition: .3s, background-color;
