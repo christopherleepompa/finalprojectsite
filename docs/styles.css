@@ -135,6 +135,7 @@ body {
 }
 
 #siteNav a {
+	display:block;
 	text-decoration:none;
 	color:#FFF;
 	transition: .3s, background-color;
@@ -144,7 +145,7 @@ body {
 	background-color:#B2B1BA;
 }
 
-#siteNav a.activeLink {
+#siteNav a.activeNav {
 	background-color:#EDEDF7;
 	color:#38383B;
 	cursor:default;
