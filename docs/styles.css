@@ -83,7 +83,7 @@ input, select {
  vertical-align:middle;
 }
 
-/*Styles*/
+/*Global Styles*/
 html {
 	background:#B1B1BA
 }
@@ -155,6 +155,19 @@ body {
 	cursor:default;
 }
 
+#siteFooter {
+	clear:both;
+	background:#74747A;
+	color:#FFF;
+	width:896px;
+	height:31px;
+	padding-top:15px;
+	padding-left:32px;
+	padding-right:32px;
+}
+
+
+/*Column Page Styles*/
 #mainContent {
 	float:left;
 	width:528px;
@@ -252,13 +265,4 @@ figcaption {
 	bottom:30px;
 }
 
-#siteFooter {
-	clear:both;
-	background:#74747A;
-	color:#FFF;
-	width:896px;
-	height:31px;
-	padding-top:15px;
-	padding-left:32px;
-	padding-right:32px;
-}
+/*Media Page Styles*/
