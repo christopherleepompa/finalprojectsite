@@ -166,6 +166,9 @@ body {
 	padding-right:32px;
 }
 
+#siteFooter p {
+	font-family:Helvetica;
+}
 
 /*Column Page Styles*/
 #mainContent {
@@ -268,5 +271,62 @@ figcaption {
 /*Media Page Styles*/
 
 #mediaArticle {
-	padding-top:16px;
+	width:896px;
+	padding:16px 32px 0px 32px;
+}
+
+#mediaTitle {
+	float:left;
+	font-size:35px;
+	font-family:Lucida Sans Unicode;
+}
+
+#mediaType {
+	float:left;
+	color:#74747A;
+	padding:5px 0px 0px 8px;
+	font-size: 25px;
+	font-style: italic;
+	font-weight:normal;
+	font-family:Lucida Sans Unicode;
+}
+
+#titleSeparator {
+	float:left;
+	position:relative;
+	bottom:4px;
+	left:4px;
+	font-size:40px;
+	font-family:Lucida Sans Unicode;
+}
+
+#mediaDatetime {
+	clear:both;
+	color:#74747A;
+	padding-top:8px;
+	font-family:Lucida Sans Unicode;
+}
+
+#mediaContent {
+	width:768px;
+	background:#D5D5E0; 
+	padding:16px 16px 3px 16px;
+	margin:16px 0px 0px 48px;
+}
+
+#mediaFooter {
+	text-align:right;
+}
+
+#relatedContent {
+	width:896px;
+	border-top:3px double #D5D5E0;
+	margin:32px 32px 0px 32px;
+}
+
+#relatedContent p {
+	text-align:center;
+	font-size:16px;
+	font-family:Lucida Sans Unicode;
+	margin:32px 0px 16px 0px;
 }
