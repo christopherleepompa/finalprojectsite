@@ -201,13 +201,25 @@ body {
 .articleImg {
 	width:525px;
 	height:193px;
+	opacity:1;
+	transition:1s, opacity;
 }
+
+.articleImg:hover {
+	opacity:0.75;
+}
+
 
 .articleTitle {
 	width:528px;
 	padding-top:7px;
 	font-size:25px;
 	font-family:Lucida Sans Unicode;
+}
+
+.articleLink {
+	text-decoration:none;
+	color:#38383B;
 }
 
 .articleType {
