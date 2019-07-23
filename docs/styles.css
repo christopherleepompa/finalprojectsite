@@ -183,6 +183,16 @@ body {
 	padding-right:16px;
 	padding-bottom:41px;
 	padding-left:32px;
+}
+
+#mainArchive {
+	float:left;
+	width:528px;
+	height:1200px;
+	padding-top:23px;
+	padding-right:16px;
+	padding-bottom:41px;
+	padding-left:32px;
 	overflow:scroll;
 }
 
