@@ -155,8 +155,12 @@ body {
 	cursor:default;
 }
 
-#siteFooter {
+#footerBuffer {
 	clear:both;
+	visibility:hidden;
+}
+
+#siteFooter {
 	background:#74747A;
 	color:#FFF;
 	width:896px;
@@ -176,10 +180,9 @@ body {
 	width:528px;
 	height:1200px;
 	padding-top:23px;
-	padding-right:13px;
+	padding-right:16px;
 	padding-bottom:41px;
 	padding-left:32px;
-	border-right:3px double #D5D5E0;
 }
 
 .mainHeader {
@@ -194,7 +197,6 @@ body {
 
 #mainContent article {
 	width:528px;
-	height:280px;
 	padding-top:16px;
 }
 
@@ -219,7 +221,7 @@ body {
 
 .articleLink {
 	text-decoration:none;
-	color:#38383B;
+	color:black;
 }
 
 .articleType {
@@ -241,7 +243,7 @@ body {
 	padding-top:4px;
 }
 
-#sideContent {
+#sideBar {
 	float:right;
 	width:336px;
 	height:1200px;
@@ -263,21 +265,37 @@ body {
 	font-family:Lucida Sans Unicode;
 }
 
-#sideContent section {
+#sideContent {
 	width:336px;
 	height:220px;
 	padding-top:16px;
 }
 
+#sideContent > .sideLink:not(:first-child) {
+	margin-top:16px;
+}
+
+.sideLink {
+	position:relative;
+}
+
 .sideImg {
 	width:336px;
 	height:220px;
+	z-index:0;
 }
 
 .sideCaption {
-	text-align:center;
-	position:relative;
-	bottom:30px;
+	color:white;
+	text-align:left;
+	position:absolute;
+	left:16px;
+	bottom:16px;
+	font-size:23px;
+	font-weight:bold;
+	font-family:Helvetica;
+	text-shadow: 2px 2px 1px black;
+	z-index:1;
 }
 
 /*Media Page Styles*/
