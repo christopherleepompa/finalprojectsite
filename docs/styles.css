@@ -274,7 +274,7 @@ body {
 	height:220px;
 }
 
-figcaption {
+.sideCaption {
 	text-align:center;
 	position:relative;
 	bottom:30px;
@@ -341,4 +341,18 @@ figcaption {
 	font-size:16px;
 	font-family:Lucida Sans Unicode;
 	margin:32px 0px 16px 0px;
+}
+
+.relatedArticle {
+	display:inline-block;
+}
+
+.relatedArticle img{
+	margin:7px 7px 16px 7px;
+}
+
+.relatedCaption {
+	text-align:center;
+	position:relative;
+	bottom:64px;
 }
