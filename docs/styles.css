@@ -385,8 +385,13 @@ body {
 	position:relative;
 }
 
-.relatedArticle img{
+.relatedArticle > a > img {
 	margin:7px 7px 16px 7px;
+	opacity:1;
+}
+
+.relatedArticle > a > img:hover {
+	opacity:0.75;
 }
 
 .relatedCaption {
