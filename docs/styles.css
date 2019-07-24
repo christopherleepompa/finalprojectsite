@@ -111,6 +111,10 @@ body {
 	padding-left:32px;
 }
 
+#bannerContainer > p:hover {
+	text-shadow:0 0 3px white;
+}
+
 #bannerContainer a {
 	display:block;
 	text-decoration:none;
