@@ -206,7 +206,7 @@ body {
 	font-family:Lucida Sans Unicode;
 }
 
-#mainContent article {
+#mainContent > article {
 	width:528px;
 	padding-top:16px;
 }
