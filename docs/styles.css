@@ -295,6 +295,11 @@ body {
 	width:336px;
 	height:220px;
 	z-index:0;
+	opacity:1;
+}
+
+.sideLink > a > .sideImg:hover {
+	opacity:0.75;
 }
 
 .sideCaption {
@@ -308,6 +313,18 @@ body {
 	font-family:Helvetica;
 	text-shadow: 2px 2px 1px black;
 	z-index:1;
+}
+
+#authorName {
+	float:left;
+	margin:0px 16px 0px 0px;
+	font-weight:bold;
+	font-family:Lucida Sans Unicode;
+}
+
+#columnImg {
+	clear:left;
+	margin:8px 0px 0px 0px;
 }
 
 /*Media Page Styles*/
@@ -326,7 +343,7 @@ body {
 #mediaType {
 	clear:both;
 	color:#74747A;
-	padding:5px 0px 0px 0px;
+	padding:5px 0px 5px 0px;
 	font-size: 25px;
 	font-style: italic;
 	font-weight:normal;
@@ -365,6 +382,7 @@ body {
 
 .relatedArticle {
 	display:inline-block;
+	position:relative;
 }
 
 .relatedArticle img{
@@ -372,7 +390,14 @@ body {
 }
 
 .relatedCaption {
-	text-align:center;
-	position:relative;
-	bottom:64px;
+	color:white;
+	text-align:left;
+	position:absolute;
+	left:16px;
+	bottom:32px;
+	font-size:23px;
+	font-weight:bold;
+	font-family:Helvetica;
+	text-shadow: 2px 2px 1px black;
+	z-index:1;
 }
